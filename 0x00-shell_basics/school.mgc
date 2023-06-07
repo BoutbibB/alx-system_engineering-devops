@@ -1,2 +1,2 @@
 #!/bin/bash
-file -d -m school.mgc temp.txt
+file -C -m school.mgc | grep -q "SCHOOL"
